@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1, h5 {
+    margin: 8px auto;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 24px;
+}
+
+input[type="number"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 30px;
+    resize: none;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    background-color: #e29127;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    height: 35px;
+}
+
+button:hover {
+    background-color: #dda04f;
+}
+
+.msg-sucesso {
+    font-size: 12px;
+    background-color: #39bd86;
+    padding: 8px;
+    color: #fff;
+    display: none;
+}
+
+.msg-erro {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
